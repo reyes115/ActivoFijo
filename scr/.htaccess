@@ -1,0 +1,22 @@
+# Activa el motor de reescritura
+RewriteEngine On
+
+# Permite solicitudes desde localhost (ajusta esto según tu configuración)
+Allow from 127.0.0.1
+Allow from ::1
+
+# Permite solicitudes desde la propia máquina del servidor (si es necesario)
+Allow from localhost
+Allow from 192.168.1.100  # Reemplaza con la IP de tu servidor si es diferente
+
+# Bloquea el acceso directo desde el navegador
+Deny from all
+
+# Permite el acceso a archivos PHP
+<Files *.php>
+    Allow from all
+</Files>
+
+
+# Permite heredar reglas de reescritura del directorio principal
+RewriteOptions Inherit

@@ -1,0 +1,133 @@
+RewriteEngine On
+
+#cerrar sesion
+RewriteRule ^logout$ logout.php [L]
+#descargar apk
+RewriteRule ^apk$ apk/app/descargar_apk.php [L]
+
+#Logos
+RewriteRule ^logo1$ img/AB_FORTI/PNG/AB_FORTI_Logotipo-01.png [L]
+RewriteRule ^logo2$ img/AB_FORTI/PNG/AB_FORTI_Logotipo-02.png [L]
+RewriteRule ^logo3$ img/AB_FORTI/PNG/AB_FORTI_Logotipo-03.png [L]
+RewriteRule ^logo4$ img/AB_FORTI/PNG/AB_FORTI_Logotipo-04.png [L]
+RewriteRule ^logo11$ img/AB_FORTI/PNG/AB_FORTI_Logotipo-11.png [L]
+RewriteRule ^logo12$ img/AB_FORTI/PNG/AB_FORTI_Logotipo-12.png [L]
+RewriteRule ^logo17$ img/AB_FORTI/JPG/AB_FORTI_Logotipo-17.jpg [L]
+RewriteRule ^logo18$ img/AB_FORTI/PNG/AB_FORTI_Logotipo-17b.png [L]
+RewriteRule ^loading$ img/cargando.gif [L]
+
+#public_index
+RewriteRule ^inicio$ public/index.php [L]
+RewriteRule ^procesar_qr$ assets/procesar_qr.php [L]
+
+#dashboard
+RewriteRule ^dashboard$ public/dashboard/ [L]
+
+#computo
+RewriteRule ^computo$ public/computo/ [L]
+RewriteRule ^ver_equipo([^/]*)$ public/computo/computo_equipo.php?codigoQR=$1 [L]
+RewriteRule ^new_computo$ public/computo/new.php [L]
+RewriteRule ^save_compu$ assets/computo/save_new.php [L]
+RewriteRule ^edit_compu$ assets/computo/save_edit.php [L]
+RewriteRule ^responsiva_computo$ assets/computo/computo_pdf.php [L]
+
+#moviles
+RewriteRule ^moviles$ public/movil/ [L]
+RewriteRule ^new_moviles$ public/movil/new.php [L]
+RewriteRule ^save_movil$ assets/movil/save_new.php [L]
+RewriteRule ^ver_movil([^/]*)$ public/movil/movil.php?codigoQR=$1 [L]
+RewriteRule ^edit_movil$ assets/movil/save_edit.php [L]
+RewriteRule ^responsiva_movil$ assets/movil/movil_pdf.php [L]
+
+#personal
+RewriteRule ^personal$ public/personal/ [L]
+RewriteRule ^ver_personal([^/]*)$ public/personal/personal.php?id_personal=$1 [L]
+RewriteRule ^obtener_departamentos$ assets/obtener_departamentos.php [L]
+RewriteRule ^edit_personal$ assets/personal/save_edit.php [L]
+RewriteRule ^baja_equipo$ assets/personal/baja.php [L]
+
+#equipos alternos
+RewriteRule ^dispositivos$ public/dispositivos/ [L]
+RewriteRule ^ver_dispositivos([^/]*)$ public/dispositivos/dispositivos.php?codigoQR=$1  [L]
+RewriteRule ^edit_dispositivos$ assets/dispositivos/save_edit.php [L]
+
+# licencias
+RewriteRule ^licencias$ public/licencias/ [L]
+RewriteRule ^ver_licencias([^/]*)$ public/licencias/licencias.php?id_licencias=$1 [L]
+RewriteRule ^edit_licencias$ assets/licencias/save_edit.php [L]
+
+#servicios
+RewriteRule ^servicios$ public/servicios/ [L]
+RewriteRule ^ver_servicios([^/]*)$ public/servicios/servicios.php?id_servicios=$1 [L]
+RewriteRule ^edit_servicios$ assets/servicios/save_edit.php [L]
+
+#PASSWORD
+RewriteRule ^password$ public/password/ [L]
+
+#AUTOS
+RewriteRule ^autos$ public/autos/ [L]
+RewriteRule ^new_autos$ public/autos/new.php [L]
+RewriteRule ^save_auto$ assets/autos/save_new.php [L]
+RewriteRule ^ver_auto([^/]*)$ public/autos/auto.php?codigoQR=$1 [L]
+RewriteRule ^guardar_archivo_autos$ assets/autos/guardar_archivo_autos.php [L]
+RewriteRule ^ficha_tecnica$ assets/autos/ficha_tecnica.php [L]
+RewriteRule ^responsiva_auto$ assets/autos/responsiva.php [L]
+RewriteRule ^edit_auto$ assets/autos/save_edit.php [L]
+
+#stock
+RewriteRule ^stock$ public/stock/ [L]
+RewriteRule ^ver_mobiliario([^/]*)$ public/stock/stock.php?codigoQR=$1  [L]
+RewriteRule ^edit_stock$ assets/stock/save_edit.php [L]
+
+#maquinaria
+RewriteRule ^maquinaria$ public/maquinaria/ [L]
+RewriteRule ^ver_maquinaria([^/]*)$ public/maquinaria/maquinaria.php?codigoQR=$1  [L]
+RewriteRule ^edit_maquinaria$ assets/maquinaria/save_edit.php [L]
+
+# polizas
+RewriteRule ^polizas$ public/polizas/ [L]
+RewriteRule ^ver_polizas([^/]*)$ public/polizas/polizas.php?id_polizas=$1 [L]
+RewriteRule ^edit_polizas$ assets/polizas/save_edit.php [L]
+RewriteRule ^t_asegurado$ assets/polizas/t_asegurado.php [L]
+
+# accesos
+RewriteRule ^accesos$ public/usuarios/ [L]
+RewriteRule ^c_accesos$ assets/usuarios/accesos.php [L]
+RewriteRule ^new_usuario$ public/usuarios/new_usuario.php [L]
+RewriteRule ^save_usuario$ assets/usuarios/save_new.php [L]
+RewriteRule ^edit_usuario$ assets/usuarios/save_edit.php [L]
+RewriteRule ^ver_usuario([^/]*)$ public/usuarios/usuario.php?id_usuario=$1 [L]
+
+# app_adndroid
+RewriteRule ^android$ public/android/ [L]
+
+RewriteRule ^DeleteDoc$ assets/delete_doc.php [L]
+
+#JS
+RewriteRule ^calendarJs$ js/calendar.js [L]
+RewriteRule ^aplicarConfiguraciones$ js/js_columnas/filters_colums.js [L]
+RewriteRule ^excel$ js/excel.js [L]
+
+#js columnas
+RewriteRule ^TablaComputoJs$ js/js_columnas/col_computo.js [L]
+RewriteRule ^TablaMovilJs$ js/js_columnas/col_movil.js [L]
+RewriteRule ^TablaPersonalJs$ js/js_columnas/col_personal.js [L]
+RewriteRule ^TablaDispositivosJs$ js/js_columnas/col_dispositivos.js [L]
+RewriteRule ^TablaLicenciasJs$ js/js_columnas/col_licencias.js [L]
+RewriteRule ^TablaServiciosJs$ js/js_columnas/col_servicios.js [L]
+RewriteRule ^TablaPasswordJs$ js/js_columnas/col_password.js [L]
+RewriteRule ^TablaAutosJs$ js/js_columnas/col_autos.js [L]
+RewriteRule ^TablaStockJs$ js/js_columnas/col_stock.js [L]
+RewriteRule ^TablaMaquinariaJs$ js/js_columnas/col_maquinaria.js [L]
+RewriteRule ^TablaPolizasJs$ js/js_columnas/col_polizas.js [L]
+
+#Mensajes de acceso no permitido
+RewriteRule ^denegado$ index.php?NS=1 [L]
+RewriteRule ^incorrecto$ index.php?in=1 [L]
+
+#Mensajes de errores
+RewriteRule ^error$  404.html [L]
+php_value display_errors 0
+php_value error_reporting 0
+ErrorDocument 404 /404.html
+ErrorDocument 500 /404.html

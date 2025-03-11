@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/3" xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIGJDCCBAygAwIBAgIUMDAwMDEwMDAwMDA1MDU1NDE5MDkwDQYJKoZIhvcNAQELBQAwggGEMSAwHgYDVQQDDBdBVVRPUklEQUQgQ0VSVElGSUNBRE9SQTEuMCwGA1UECgwlU0VSVklDSU8gREUgQURNSU5JU1RSQUNJT04gVFJJQlVUQVJJQTEaMBgGA1UECwwRU0FULUlFUyBBdXRob3JpdHkxKjAoBgkqhkiG9w0BCQEWG2NvbnRhY3RvLnRlY25pY29Ac2F0LmdvYi5teDEmMCQGA1UECQwdQVYuIEhJREFMR08gNzcsIENPTC4gR1VFUlJFUk8xDjAMBgNVBBEMBTA2MzAwMQswCQYDVQQGEwJNWDEZMBcGA1UECAwQQ0lVREFEIERFIE1FWElDTzETMBEGA1UEBwwKQ1VBVUhURU1PQzEVMBMGA1UELRMMU0FUOTcwNzAxTk4zMVwwWgYJKoZIhvcNAQkCE01yZXNwb25zYWJsZTogQURNSU5JU1RSQUNJT04gQ0VOVFJBTCBERSBTRVJWSUNJT1MgVFJJQlVUQVJJT1MgQUwgQ09OVFJJQlVZRU5URTAeFw0yMDEwMjkxNTQzMDFaFw0yNDEwMjkxNTQzMDFaMIHyMTMwMQYDVQQDEypLQUVTRVIgQ09NUFJFU09SRVMgREUgTUVYSUNPIFMgREUgUkwgREUgQ1YxMzAxBgNVBCkTKktBRVNFUiBDT01QUkVTT1JFUyBERSBNRVhJQ08gUyBERSBSTCBERSBDVjEzMDEGA1UEChMqS0FFU0VSIENPTVBSRVNPUkVTIERFIE1FWElDTyBTIERFIFJMIERFIENWMSUwIwYDVQQtExxLQ005NTEwMjdCTjIgLyBQRUJNNzUwODExQjgwMR4wHAYDVQQFExUgLyBQRUJNNzUwODExSFNQUkNMMDIxCjAIBgNVBAsTATEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCi93uXHwcnnqt3EDlH7gbdY27D6j9UIA634vVsbt815CCws6XyBZ9jYhtiuzYSolq/42c4i8RldUsBxq8UEXdgpOXEJ75yVf/BwSShI6zHmnvMT7d1VFI84kMNotWgGr0WYeQYNSKy+nZFSZXsBPMjbfOokrsqEbNpC+wgRMiVFBGHFMv963GRMdKWj3Juts2YAHbirzcEDj+sCFliBGMVFhXSJ9hBQaUZF3k+z3XsUZFgmyQdT9TB/9gEOLnQCSCpL1/Kh9I1caWjq8BSECzkJG9DlObtcbF9Z9yrdYfWCDR2ZK7hl/7UANeNQz1G3Wjcs077/DBr4R0dhGsW5ZEDAgMBAAGjHTAbMAwGA1UdEwEB/wQCMAAwCwYDVR0PBAQDAgbAMA0GCSqGSIb3DQEBCwUAA4ICAQCw6w57dV7w883Ej9sf2BviD5bTppG9tDqMvduoA04Zrs6JBxzPHN5eL3R2Bd5IQdCZIYGwUb0h5pkAFrYoumC6/BWNigwT34wVS51s9HNWHiMLT8WrfLpVL6B4GucxAg43IPpTQ8gpDvMKZGFiBHWAMlgrZgnPOhCbAhcaXEb5cZrfnpoVANKQJnvoZ61rCwNKy8mFti8/xVctVrSvRXRhyWenjg3AdB1NL8MLcl3Hf5cee2avsAZqyyEVD6VgFD/wSc6NJEFIEWWkg0GiLluYUSr0Agskr2jcHkM95tAkslaXLZTfWZBg6xPmMuC2tTg+zCrJ3MuEQgd0qpbzZ+fl/jYFG4BQGJvQphj9fG9SvP+MngbNrb0Zcrxl4NINiuUJtMlMAjZubB2o5USbBJtDxt92yCWtPnjNH5cnd/wd/64UVgKbmJ8IvWm8aJ4FROWw78MSV/tUaVNO48Bjk6hE04/QIl1JOWk41ToH8/8P7u/znxfqAAwMp0JJhhrcScb86MHMTd4pw1BFlT95KaE+ThlRip5xMqQJ1R9lzVTwk2NkBqay5i1KammaM7GIE7Jdmm7Kn9CU4mnwXVckFYUgjm3B30/5yUITSQ7NGDFWYyKWvlrniLrw3Nk3O3G5AZQvZ9ujRNv+wD/4JqQqJPhdLxzzjdrumFjkgLcBNcK5Aw==" CondicionesDePago="neto a la vista" Fecha="2022-12-21T13:41:14" Folio="0915716359" FormaPago="03" LugarExpedicion="76100" MetodoPago="PUE" Moneda="USD" NoCertificado="00001000000505541909" Sello="AyJIeBX345r8i5285RHTk9VFnS96fYiRkOjhkDs44XUTB1+M4rmTwKsXzIDt1TZJPtgyrBV229NrWVwzgEvZpj+K1Lu/EVHUGPWKuJ0zBFnPp/3Zsfk39ITSr/rf2hTnTMvrtzP+a0k7z1oYWi950KSyyIzqytPFwGoHP3qUFe4giEnXE8nDi4hxtJq5FMXww+P7ggj86zKuZpsScVR1TDjx7sGmH1E4cRiSPqtNV1Y7HX2Z2tKNJiszb9/Jji21rxJT0m7pRYziIlkaI+MPaeDysoAgiLzXMOSHy0Oy/6t1JZVqXRnzzCj+n+UFtT47kZlEk9FOBL43dCqKMXAGZA==" Serie="0001109193" SubTotal="25625.24" TipoCambio="19.7482" TipoDeComprobante="I" Total="29725.28" Version="3.3" xsi:schemaLocation="http://www.sat.gob.mx/cfd/3 http://www.sat.gob.mx/sitio_internet/cfd/3/cfdv33.xsd">
+    <cfdi:Emisor Nombre="Kaeser Compresores de Mexico S de R.L. de C.V." RegimenFiscal="601" Rfc="KCM951027BN2"/>
+    <cfdi:Receptor Nombre="INNOVACION EN TERMOFORMADO" Rfc="IET0701246J3" UsoCFDI="G03"/>
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="24111803" ClaveUnidad="H87" Descripcion="DepC3sito de aire comprimido 1000/11 ST C, Serie:19879" Importe="3824.8" NoIdentificacion="3.5535.1" Unidad="PZA" ValorUnitario="3824.8">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="3824.80" Importe="611.9680" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="22  81  3699  2003236"/>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="40151802" ClaveUnidad="H87" Descripcion="Set de compon. de instalaciC3n 1000/11 ve" Importe="512.8" NoIdentificacion="8.4405.1" Unidad="PZA" ValorUnitario="512.8">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="512.80" Importe="82.0480" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="40151802" ClaveUnidad="H87" Descripcion="Juego manC3m., conex. control 0-20bar G1/" Importe="135.2" NoIdentificacion="405330.00010" Unidad="PZA" ValorUnitario="135.2">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="135.20" Importe="21.6320" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="78102205" ClaveUnidad="A9" Descripcion="Gastos de envC-o" Importe="100" NoIdentificacion="8.6245.0" Unidad="TRF" ValorUnitario="100">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="100.00" Importe="16.0000" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="84131504" ClaveUnidad="E48" Descripcion="Seguro" Importe="101.69" NoIdentificacion="8.6245.00010" Unidad="Unidad de Servicio" ValorUnitario="101.69">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="101.69" Importe="16.2704" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="40151800" ClaveUnidad="H87" Descripcion="Eco-drain 31 95-240VAC" Importe="304.8" NoIdentificacion="8.2579.2" Unidad="PZA" ValorUnitario="304.8">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="304.80" Importe="48.7680" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+        </cfdi:Concepto>
+        <cfdi:Concepto Cantidad="1" ClaveProdServ="40151601" ClaveUnidad="H87" Descripcion="AS 30 T 125psi SC2 TriVolt. US, Serie:2110" Importe="20645.95" NoIdentificacion="101932.01" Unidad="PZA" ValorUnitario="20645.95">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="20645.95" Importe="3303.3520" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="22  81  3699  2004842"/>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="4100.04">
+        <cfdi:Traslados>
+            <cfdi:Traslado Importe="4100.04" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa"/>
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital FechaTimbrado="2022-12-21T13:49:59" NoCertificadoSAT="00001000000505600468" RfcProvCertif="EME000602QR9" SelloCFD="AyJIeBX345r8i5285RHTk9VFnS96fYiRkOjhkDs44XUTB1+M4rmTwKsXzIDt1TZJPtgyrBV229NrWVwzgEvZpj+K1Lu/EVHUGPWKuJ0zBFnPp/3Zsfk39ITSr/rf2hTnTMvrtzP+a0k7z1oYWi950KSyyIzqytPFwGoHP3qUFe4giEnXE8nDi4hxtJq5FMXww+P7ggj86zKuZpsScVR1TDjx7sGmH1E4cRiSPqtNV1Y7HX2Z2tKNJiszb9/Jji21rxJT0m7pRYziIlkaI+MPaeDysoAgiLzXMOSHy0Oy/6t1JZVqXRnzzCj+n+UFtT47kZlEk9FOBL43dCqKMXAGZA==" SelloSAT="Ez7GVVyWkKBH7223mMAsmH80Ul/8zTpazwoerMTVSf9pC39OFejgbLp1f374lVD/GMgc1wxQnlKAhUbfr4gTLLuA17/D+OW0xBYcbt4rH9c7gn8Wk4hnr7YBRa/PHvEy/MP+dgxeKGPmKFqfmIPNbZvebmWU8UOukDmHXP3WKpISb6URt7N4DjpV9PjKXbQxr7fC6m1FUhMugyqB3nl4ivYs8htuB2WWKU/xcruHUejX3MlXxAAjqI3aOBu/2TH06Kna25AoQ/wDVxYPDypaA3+j3GNOdzlroXLLdmgUVznvkYfqC2Hedww5tISmPeZ4EThick9nikS0ze+0K3vhhg==" UUID="6DACA9BD-8167-11ED-9AE5-052AAFBFE26A" Version="1.1" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd"/></cfdi:Complemento></cfdi:Comprobante>

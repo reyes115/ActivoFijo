@@ -1,0 +1,10 @@
+{
+    "name": "testuser/test-project",
+    "description": "proyecto de prueba",
+    "type": "test",
+    "minimum-stability": "beta",
+    "require": {
+        "tecnickcom/tcpdf": "^6.6",
+        "setasign/fpdi": "^2.6"
+    }
+}
